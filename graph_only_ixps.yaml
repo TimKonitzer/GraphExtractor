@@ -1,0 +1,239 @@
+- name: EdgeIX - Auckland
+  content_type: graph only
+
+- name: INEX LAN2
+  content_type: graph only
+
+- name: BertuahIX
+  content_type: graph only
+  img_daily_curl:
+    img_daily_url: https://mrtg.bertuahix.net/10g_te0_44-day.png
+    img_daily_headers:
+      User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:123.0) Gecko/20100101
+        Firefox/123.0
+      Accept: image/avif,image/webp,*/*
+      Accept-Language: de,en-US;q=0.7,en;q=0.3
+      Accept-Encoding: gzip, deflate, br, zstd
+      Connection: keep-alive
+      Referer: https://mrtg.bertuahix.net/10g_te0_44.html
+      Sec-Fetch-Dest: image
+      Sec-Fetch-Mode: no-cors
+      Sec-Fetch-Site: same-origin
+      If-Modified-Since: Thu, 13 Jun 2024 15:35:02 GMT
+      If-None-Match: ''
+      Priority: u=4
+
+- name: Community-IX
+  content_type: graph only
+  img_daily_curl:
+    img_daily_url: https://www.community-ix.de/ixp/grapher/ixp?period=day
+    img_daily_headers:
+      User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:123.0) Gecko/20100101
+        Firefox/123.0
+      Accept: image/avif,image/webp,*/*
+      Accept-Language: de,en-US;q=0.7,en;q=0.3
+      Accept-Encoding: gzip, deflate, br, zstd
+      Referer: https://www.community-ix.de/technology/
+
+- name: EPIX.Katowice
+  content_type: graph only
+  img_daily_curl:
+    img_daily_url: https://newstats.epix.net.pl/epix-traffic-all-day.png
+    img_daily_headers:
+      User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:123.0) Gecko/20100101
+        Firefox/123.0
+      Accept: image/avif,image/webp,*/*
+      Accept-Language: de,en-US;q=0.7,en;q=0.3
+      Accept-Encoding: gzip, deflate, br, zstd
+      Referer: https://www.epix.net.pl/
+
+- name: EPIX.Poznan
+  content_type: graph only
+  img_daily_curl:
+    img_daily_url: https://newstats.epix.net.pl/epix-traffic-all-day.png
+    img_daily_headers:
+      User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:123.0) Gecko/20100101
+        Firefox/123.0
+      Accept: image/avif,image/webp,*/*
+      Accept-Language: de,en-US;q=0.7,en;q=0.3
+      Accept-Encoding: gzip, deflate, br, zstd
+      Connection: keep-alive
+      Referer: https://www.epix.net.pl/
+      Sec-Fetch-Dest: image
+      Sec-Fetch-Mode: no-cors
+      Sec-Fetch-Site: same-site
+
+- name: EPIX.Warszawa
+  content_type: graph only
+  img_daily_curl:
+    img_daily_url: https://newstats.epix.net.pl/epix-traffic-all-day.png
+    img_daily_headers:
+      User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:123.0) Gecko/20100101
+        Firefox/123.0
+      Accept: image/avif,image/webp,*/*
+      Accept-Language: de,en-US;q=0.7,en;q=0.3
+      Accept-Encoding: gzip, deflate, br, zstd
+      Referer: https://www.epix.net.pl/
+
+- name: IIX-Jateng
+  content_type: graph only
+  img_daily_curl:
+    img_daily_url: https://nmsjateng.iix.net.id/103.249.65.250_ge-0_0_33-day.png
+    img_daily_headers:
+      User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:123.0) Gecko/20100101
+        Firefox/123.0
+      Accept: image/avif,image/webp,*/*
+      Accept-Language: de,en-US;q=0.7,en;q=0.3
+      Accept-Encoding: gzip, deflate, br, zstd
+      Connection: keep-alive
+      Referer: https://nmsjateng.iix.net.id/103.249.65.250_ge-0_0_33.html
+      Sec-Fetch-Dest: image
+      Sec-Fetch-Mode: no-cors
+      Sec-Fetch-Site: same-origin
+      If-Modified-Since: Thu, 13 Jun 2024 15:40:03 GMT
+      If-None-Match: ''
+      Priority: u=4
+
+- name: LONAP
+  content_type: graph only
+  img_daily_curl:
+    img_daily_url: https://www.lonap.net/mrtg/lonap-total-day.png
+    img_daily_headers:
+      User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:123.0) Gecko/20100101
+        Firefox/123.0
+      Accept: image/avif,image/webp,*/*
+      Accept-Language: de,en-US;q=0.7,en;q=0.3
+      Accept-Encoding: gzip, deflate, br, zstd
+      Referer: https://www.lonap.net/traffic
+
+- name: npIX JWL
+  content_type: graph only
+  img_daily_curl:
+    img_daily_url: https://nms2.npix.net.np/grapher/ixp?id=3&type=png&period=day
+    img_daily_headers:
+      User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:123.0) Gecko/20100101
+        Firefox/123.0
+      Accept: image/avif,image/webp,*/*
+      Accept-Language: de,en-US;q=0.7,en;q=0.3
+      Accept-Encoding: gzip, deflate, br, zstd
+      Referer: https://www.npix.net.np/
+
+- name: RIX
+  content_type: graph only
+  img_daily_curl:
+    img_daily_url: https://www.rix.is/status/rix/galag/galag-day.png
+    img_daily_headers:
+      User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:123.0) Gecko/20100101
+        Firefox/123.0
+      Accept: image/avif,image/webp,*/*
+      Accept-Language: de,en-US;q=0.7,en;q=0.3
+      Accept-Encoding: gzip, deflate, br, zstd
+      Referer: https://www.rix.is/en/graphs?m=galag
+
+- name: STHIX - Gothenburg
+  content_type: graph only
+  img_daily_curl:
+    img_daily_url: https://portal.sthix.net/grapher/ixp?period=day&type=png&category=bits&protocol=all&id=1
+    img_daily_headers:
+      User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:123.0) Gecko/20100101
+        Firefox/123.0
+      Accept: image/avif,image/webp,*/*
+      Accept-Language: de,en-US;q=0.7,en;q=0.3
+      Accept-Encoding: gzip, deflate, br, zstd
+      Referer: https://sthix.net/
+
+- name: STHIX - Stockholm
+  content_type: graph only
+  img_daily_curl:
+    img_daily_url: https://portal.sthix.net/grapher/ixp?period=day&type=png&category=bits&protocol=all&id=1
+    img_daily_headers:
+      User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:123.0) Gecko/20100101
+        Firefox/123.0
+      Accept: image/avif,image/webp,*/*
+      Accept-Language: de,en-US;q=0.7,en;q=0.3
+      Accept-Encoding: gzip, deflate, br, zstd
+      Referer: https://sthix.net/
+
+- name: STHIX All
+  content_type: graph only
+  img_daily_curl:
+    img_daily_url: https://portal.sthix.net/grapher/ixp?period=day&type=png&category=bits&protocol=all&id=1
+    img_daily_headers:
+      User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:123.0) Gecko/20100101
+        Firefox/123.0
+      Accept: image/avif,image/webp,*/*
+      Accept-Language: de,en-US;q=0.7,en;q=0.3
+      Accept-Encoding: gzip, deflate, br, zstd
+      Referer: https://sthix.net/
+
+- name: TahoeIX
+  content_type: graph only
+  img_daily_curl:
+    img_daily_url: https://www.tahoeix.org/mrtg/ix_traffic-day.png
+    img_daily_headers:
+      User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:123.0) Gecko/20100101
+        Firefox/123.0
+      Accept: image/avif,image/webp,*/*
+      Accept-Language: de,en-US;q=0.7,en;q=0.3
+      Accept-Encoding: gzip, deflate, br, zstd
+      Connection: keep-alive
+      Referer: https://www.tahoeix.org/
+      Sec-Fetch-Dest: image
+      Sec-Fetch-Mode: no-cors
+      Sec-Fetch-Site: same-origin
+      If-Modified-Since: Wed, 05 Jun 2024 08:40:01 GMT
+      If-None-Match: ''
+      Priority: u=4
+
+- name: TorIX
+  content_type: graph only
+  img_daily_curl:
+    img_daily_url: https://www.torix.ca/img/torix-day.png
+    img_daily_headers:
+      User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:123.0) Gecko/20100101
+        Firefox/123.0
+      Accept: image/avif,image/webp,*/*
+      Accept-Language: de,en-US;q=0.7,en;q=0.3
+      Accept-Encoding: gzip, deflate, br, zstd
+      Referer: https://www.torix.ca/traffic-statistics/
+
+- name: VANIX
+  content_type: graph only
+  img_daily_curl:
+    img_daily_url: https://vanixgraph.s3-us-west-2.amazonaws.com/vanix-traffic-day.png
+    img_daily_headers:
+      User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:123.0) Gecko/20100101
+        Firefox/123.0
+      Accept: image/avif,image/webp,*/*
+      Accept-Language: de,en-US;q=0.7,en;q=0.3
+      Accept-Encoding: gzip, deflate, br, zstd
+      Referer: https://vanix.ca/
+  comments: no monthly, no yearly
+
+- name: YXEIX
+  content_type: graph only
+  img_daily_curl:
+    img_daily_url: http://yxeix.ca/graphs/e_day.png
+    img_daily_headers:
+      User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:123.0) Gecko/20100101
+        Firefox/123.0
+      Accept: image/avif,image/webp,*/*
+      Accept-Language: de,en-US;q=0.7,en;q=0.3
+      Accept-Encoding: gzip, deflate
+      Referer: http://yxeix.ca/graphs.html
+
+- name: YYCIX
+  content_type: graph only
+  img_daily_curl:
+    img_daily_url: https://yycix.ca/graphs/AGGR_day.png
+    img_daily_headers:
+      User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:123.0) Gecko/20100101
+        Firefox/123.0
+      Accept: image/avif,image/webp,*/*
+      Accept-Language: de,en-US;q=0.7,en;q=0.3
+      Accept-Encoding: gzip, deflate, br, zstd
+      Connection: keep-alive
+      Referer: https://yycix.ca/graphs.html
+      Sec-Fetch-Dest: image
+      Sec-Fetch-Mode: no-cors
+      Sec-Fetch-Site: same-origin
